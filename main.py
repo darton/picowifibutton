@@ -37,7 +37,6 @@ def connect_wifi():
 
 
 
-# Funkcja do wysyłania żądań HTTP
 def send_http_request(url):
     try:
         response = urequests.get(url)
