@@ -49,9 +49,7 @@ def send_http_request(url):
 
 
 def main():
-    # 1. Turn on Wi-Fi, read data, send to Redis
     connect_wifi()
-    # Główna logika
     send_http_request(SHELLY_API_CMD)
 
  
